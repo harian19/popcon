@@ -1,0 +1,14 @@
+.header-container {
+    margin-top: 20px;
+}
+
+
+.search-box {
+    display: grid;
+    margin-left: 20px;
+}
+
+.sign-out {
+    display: grid;
+    margin-right: 20px;
+}

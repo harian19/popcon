@@ -1,0 +1,7 @@
+.item-image-wishlist-container {
+    
+}
+.wishlist-container {
+    justify-content: flex-end;
+    display: flex;
+}

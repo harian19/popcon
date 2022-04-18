@@ -1,0 +1,19 @@
+.login-form-container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.username-box {
+    margin-bottom: 20px;
+}
+
+.password-box {
+    margin-bottom: 20px;
+}
+
+.login-buttons {
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}

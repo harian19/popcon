@@ -1,0 +1,38 @@
+.item-review-container {
+    padding: 50px 20px;
+}
+
+.progress-text{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.slider {
+
+}
+
+.update-status-button-container {
+    margin-top: 25px;
+}
+
+.rating-container {
+    width: 100%;
+}
+
+.rating {
+    float: right;
+}
+
+.rate-button-container {
+    float: right;
+}
+
+.review-textfield-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.submit-review-button-container {
+    margin-top: 25px;
+    float: right;
+}

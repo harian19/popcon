@@ -1,0 +1,12 @@
+.card-container {
+    margin-bottom: 100px;
+}
+
+.card-paper {
+    overflow: auto;
+}
+
+.card-grid-container {
+    height: auto;
+    margin: 30px;
+}
