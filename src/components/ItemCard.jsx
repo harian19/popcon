@@ -9,7 +9,7 @@ import { item_data } from "./../static/item_data";
 
 export default function ItemCard () {
     return (
-        <CardContainerWithHeader name={item_data.name} year={item_data.year}>
+        <CardContainerWithHeader title={item_data.name + " (" + item_data.year +")"}>
             <ItemImageAndWishlist
             img={item_data.image}/>
             <ItemRatingAndDetails

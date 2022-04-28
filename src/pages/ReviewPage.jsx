@@ -1,9 +1,10 @@
 import AppContainer from "../components/AppContainer";
 import ReviewCard from "../components/ReviewCard";
+import { Pages } from "../Constants";
 
 export default function ReviewPage () {
     return(
-        <AppContainer>
+        <AppContainer pageName={Pages.Review}>
             <ReviewCard/>
         </AppContainer>
     )

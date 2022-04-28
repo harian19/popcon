@@ -8,6 +8,8 @@ import Typography from '@mui/material/Typography';
 import { Rating } from "@mui/material";
 import "./UserReviewsAccordion.css"
 
+//Parts of Accordion code from https://mui.com/material-ui/react-accordion/
+
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({

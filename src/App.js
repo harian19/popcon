@@ -5,6 +5,7 @@ import LoginPage from "./pages/LoginPage";
 import ReviewPage from "./pages/ReviewPage";
 import ItemPage from "./pages/ItemPage";
 import LoginSuccessPage from "./pages/LoginSuccessPage";
+import UserPage from "./pages/UserPage";
 
 const darkTheme = 
     createTheme({
@@ -29,6 +30,8 @@ function App() {
           <Route path="success" element={<LoginSuccessPage />} />
           <Route path="review" element={<ReviewPage />} />
           <Route path="item" element={<ItemPage />} />
+
+          <Route path="user" element={<UserPage />} />
           <Route path="*" element={<LoginPage />} />
         </Route>
       </Routes>

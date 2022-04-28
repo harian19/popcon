@@ -1,0 +1,9 @@
+.category-header {
+    padding: 17px;
+    padding-left: 30px;
+}
+
+.list-container {
+    max-height: 150px;
+    overflow: auto;
+}
